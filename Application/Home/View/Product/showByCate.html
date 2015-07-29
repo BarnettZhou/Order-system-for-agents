@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{$cate}|查看商品</title>
+</head>
+<body>
+    <include file="Common:nav" />
+    <h1>{$cate}下所有商品</h1>
+    <table>
+        <tr align="right">
+            <th>商品ID</th>
+            <th>商品名</th>
+            <th>价格</th>
+            <th>剩余库存</th>
+            <th>配送重量</th>
+            <th>上架时间</th>
+            <th>操作</th>
+        </tr>
+        <foreach name="products" item="v">
+            <tr align="right">
+                <td>{$v.id}</td>
+                <td>{$v.title}</td>
+                <td>{$v.price}</td>
+                <td>{$v.remainder}</td>
+                <td>{$v.weight}</td>
+                <td>{$v.time|date="Y-m-d H:i:s", ###}</td>
+                <td>
+                    [<a href="{:U(MODULE_NAME.'/Cart/addToCart', array('pid' => $v['id']))}">加入购物车</a>]
+                </td>
+            </tr>
+        </foreach>
+    </table>
+    <h3>{$page}</h3>
+</body>
+</html>

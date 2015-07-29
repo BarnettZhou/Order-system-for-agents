@@ -1,0 +1,53 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>登陆后台管理</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="__PUBLIC__/Css/style.css" rel='stylesheet' type='text/css' />
+<script src="__PUBLIC__/Js/jquery-1.11.0.js"></script>
+</head>
+<body>
+<script>$(document).ready(function(c) {
+	$('.close').on('click', function(c){
+		$('.login-form').fadeOut('slow', function(c){
+	  		$('.login-form').remove();
+		});
+	});	  
+});
+</script>
+<!--SIGN UP-->
+<h1>登陆后台管理</h1>
+<div class="login-form">
+	<div class="close"> </div>
+		<div class="head-info">
+			<label class="lbl-1"> </label>
+			<label class="lbl-2"> </label>
+			<label class="lbl-3"> </label>
+		</div>
+			<div class="clear"> </div>
+	<div class="avtar">
+		<img src="__PUBLIC__/Images/avtar.png" />
+	</div>
+	<form action="{:U(MODULE_NAME.'/Login/loginHandle')}" method="post">
+		<input type="text" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" name="username" >
+			<div class="key">
+		<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" name="password" >
+			</div>
+		<div class="signin">
+			<input type="submit" value="Login" >
+		</div>
+	</form>
+</div>
+<div class="copy-rights">
+
+</div>
+
+</body>
+</html>

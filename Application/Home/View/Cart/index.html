@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <!-- <js file="__PUBLIC__/Js/jQuery/2.1.4/jquery.js" /> -->
+    <js file="__PUBLIC__/Js/jQuery/1.7.2/jQuery.min.js" />
+    <js file="__PUBLIC__/Js/cart.js" />
+    <script type="text/javascript">
+        var calURL = "{:U(MODULE_NAME.'/Cart/calPrice')}";
+    </script>
+</head>
+<body>
+    <include file="Common:nav" />
+    <h1>购物车</h1>
+    <if condition="$count gt 0">
+        <form action="{:U(MODULE_NAME.'/Cart/cashier')}" method="post">
+            <table>
+                <tr>
+                    <th>商品名</th>
+                    <th>单价</th>
+                    <th>配送重量（kg）</th>
+                    <th>数量</th>
+                </tr>
+                <foreach name="cart" item="v">
+                    <tr align="right">
+                        <td>{$v.p_info.title}</td>
+                        <td>{$v.p_info.price}</td>
+                        <td>{$v.p_info.weight}</td>
+                        <td>
+                            <span class="p_info">
+                                <input type="hidden" class="pid" value="{$v.pid}">
+                                <input type="text" name="num[{$v.pid}]" class="num" value="{$v.num}" />
+                            </span>
+                        </td>
+                    </tr>
+                </foreach>
+                <tr>
+                    <td>选择快递方式</td>
+                    <td>
+                        <select name="express" id="express">
+                            <option value="1">普通快递</option>
+                            <option value="2">顺丰快递</option>
+                            <option value="0">自提</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>选择配送省份</td>
+                    <td>
+                        <include file="Common:area" />
+                        &nbsp;<a href="#" id="calPrice">计算总费用</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>填写详细地址</td>
+                    <td>
+                        <input type="text" name="address" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>选择支付方式</td>
+                    <td>
+                        <select name="pay_type">
+                            <option value="1">使用账户余额支付</option>
+                            <option value="0">自行打款</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><div id="price"></div></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="确认订单">
+                        &nbsp;<a href="{:U(MODULE_NAME.'/Cart/clearCart')}">清空购物车</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    <else />
+        <h2>购物车为空</h2>
+    </if>
+</body>
+</html>

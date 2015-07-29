@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查看商品分类</title>
+</head>
+<body>
+    <h1>查看所有商品分类</h1>
+    <ul>
+        <foreach name="cate" item="v">
+            <li>编号：{$v.id}
+                <ul>
+                    <li>名称：{$v.title}</li>
+                    <li>排序：{$v.sort}</li>
+                    [<a href="{:U(MODULE_NAME.'/Category/alterCate', array('id' => $v['id'], 'title' => $v['title'], 'sort' => $v['sort']))}">修改</a>]
+                    [<a href="{:U(MODULE_NAME.'/Category/deleteCate', array('id' => $v['id']))}">删除</a>]
+                </ul>
+            </li><br />
+        </foreach>
+    </ul>
+</body>
+</html>

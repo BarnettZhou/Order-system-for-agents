@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改商品信息|{$product.title}</title>
+</head>
+<body>
+    <h1>修改一个商品|{$product.title}</h1>
+    <form action="{:U(MODULE_NAME.'/Product/alterProductHandle')}" enctype="multipart/form-data" method="post">
+        <dl>
+            <dt>商品名称</dt>
+            <dd>
+                <input type="text" name="title" value="{$product.title}"/>
+            </dd>
+            <dt>商品描述</dt>
+            <dd>
+                <textarea name="remark">{$product.remark}</textarea>
+            </dd>
+            <dt>商品图片</dt>
+            <dd>
+                <input type="file" name="image" />
+            </dd>
+            <dt>商品单价</dt>
+            <dd>
+                <input type="text" name="price" value="{$product.price}"/>
+            </dd>
+            <dt>配送重量</dt>
+            <dd>
+                <input type="text" name="weight" value="{$product.weight}" />
+            </dd>
+            <dt>商品分类</dt>
+            <dd>
+                <select name="cid">
+                    <option value="0">---选择商品分类---</option>
+                    <foreach name="cate" item="v">
+                        <if condition="$v['id'] eq $product['cid']">
+                            <option value="{$v.id}" selected>{$v.title}</option>
+                        <else />
+                            <option value="{$v.id}">{$v.title}</option>
+                        </if>
+                    </foreach>
+                </select>
+            </dd>
+            <dt>
+                <input type="hidden" name="id" value="{$product.id}">
+                <input type="submit" value="确认修改" />
+            </dt>
+        </dl>
+    </form>
+</body>
+</html>

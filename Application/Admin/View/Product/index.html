@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>所有商品</title>
+</head>
+<body>
+    <h1>查看所有商品</h1>
+    <table>
+        <tr align="right">
+            <th>商品ID</th>
+            <th>商品名</th>
+            <th>价格</th>
+            <th>剩余库存</th>
+            <th>配送重量</th>
+            <th>上架时间</th>
+            <th>所属分类ID</th>
+            <th>操作</th>
+        </tr>
+        <foreach name="products" item="v">
+            <tr align="right">
+                <td>{$v.id}</td>
+                <td>{$v.title}</td>
+                <td>{$v.price}&nbsp;元</td>
+                <td>{$v.remainder}</td>
+                <td>{$v.weight}&nbsp;kg</td>
+                <td>{$v.time|date="Y-m-d H:i:s", ###}</td>
+                <td>{$v.cid}</td>
+                <td>
+                    [<a href="{:U(MODULE_NAME.'/Product/alterProduct', array('id'=>$v['id']))}">修改商品信息</a>]
+                    [<a href="{:U(MODULE_NAME.'/Product/changeRemainder', array('id'=>$v['id']))}">更改库存</a>]
+                    [<a href="">更改价格</a>]
+                </td>
+            </tr>
+        </foreach>
+    </table>
+    <h3>{$page}</h3>
+</body>
+</html>

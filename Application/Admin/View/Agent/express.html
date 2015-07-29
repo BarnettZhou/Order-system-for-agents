@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设置配送规则</title>
+</head>
+<body>
+    <h1>新增配送规则</h1>
+    <form action="{:U(MODULE_NAME.'/Agent/expressHandle')}" method="post">
+        <table>
+            <tr>
+                <td>规则标题</td>
+                <td>
+                    <input type="text" name="title" />
+                </td>
+            </tr>
+            <tr>
+                <td>快递类型</td>
+                <td>
+                    <input type="radio" name="type" value="1" />普通快递
+                    <br>
+                    <input type="radio" name="type" value="2" />顺丰快递
+                </td>
+            </tr>
+            <tr>
+                <td>选择区域</td>
+                <td>
+                    <include file="Common:area" />
+                </td>
+            </tr>
+            <tr>
+                <td>起始重量（kg）</td>
+                <td>
+                    <input type="text" name="start_weight" />
+                </td>
+            </tr>
+            <tr>
+                <td>起始运费（元）</td>
+                <td>
+                    <input type="text" name="start_price" />
+                </td>
+            </tr>
+            <tr>
+                <td>单位重量（kg）</td>
+                <td>
+                    <input type="text" name="step_weight" />
+                </td>
+            </tr>
+            <tr>
+                <td>单位运费（元）</td>
+                <td>
+                    <input type="text" name="step_price" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="确认添加" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

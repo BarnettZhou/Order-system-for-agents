@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查看所有商品分类</title>
+    <js file="__PUBLIC__/Js/jQuery/1.7.2/jQuery.min.js" />
+    <js file="__PUBLIC__/Js/addToCart.js" />
+    <script type="text/javascript">
+        var addURL = "{:U(MODULE_NAME.'/Cart/addToCart')}";
+    </script>
+</head>
+<body>
+    <include file="Common:nav" />
+    <h1>所有分类</h1>
+    <ul>
+        <foreach name="cate" item="v">
+            <li>{$v.title}
+                <ul>
+                    <li>
+                        <a href="{:U(MODULE_NAME.'/Product/showByCate', array('cid' => $v['id'], 'cateTitle' => $v['title']))}">查看商品</a>
+                    </li>
+                </ul>
+            </li>
+            <br>
+        </foreach>
+    </ul>
+    <h1>最新上架</h1>
+    <ul>
+        <foreach name="products" item="v">
+            <li><a href="">{$v.title}</a>
+                <ul>
+                    <li><img src="http://localhost/agentapp/{$v.image}" width="60px"></li>
+                    <li>价格：{$v.price}（元）</li>
+                    <li>库存：{$v.remainder}</li>
+                    <li>配送重量（kg）：{$v.weight}</li>
+                    <li>上架时间：{$v.time|date="Y年m月d日", ###}</li>
+                    <li>备注：{$v.remark}</li>
+                    <li>
+                        <!-- [<a href="{:U(MODULE_NAME.'/Cart/addToCart', array('pid' => $v['id']))}">加入购物车</a>] -->
+                        [<a href="" class="addToCart">
+                            添加至购物车
+                            <input type="hidden" class="pid" value="{$v.id}">
+                            <input type="hidden" class="remainder" value="{$v.remainder}">
+                        </a>]
+                    </li>
+                </ul>
+            </li>
+            <br>
+        </foreach>
+    </ul>
+</body>
+</html>

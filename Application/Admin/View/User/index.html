@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查看所有用户</title>
+</head>
+<body>
+    <h1>网站管理员</h1>
+    <table>
+        <tr>
+            <th>用户ID</th>
+            <th>用户名</th>
+            <th>昵称</th>
+            <th>角色</th>
+            <th>操作</th>
+        </tr>
+        <foreach name="users" item="v">
+            <tr>
+                <td>{$v.id}</td>
+                <td>{$v.username}</td>
+                <td>{$v.nickname}</td>
+                <td>{$v.rolename}</td>
+                <td>
+                    [<a href="{:U(MODULE_NAME.'/User/alterUser', array('uid' => $v['id'], 'name' => $v['username']))}">更改用户信息</a>]
+                    [<a href="{:U(MODULE_NAME.'/User/changePwd', array('uid' => $v['id'], 'name' => $v['username']))}">更改密码</a>]
+                </td>
+            </tr>
+        </foreach>
+    </table>
+
+    <hr>
+
+    <h1>代理</h1>
+    <table>
+        <tr>
+            <th>用户ID</th>
+            <th>用户名</th>
+            <th>昵称</th>
+            <th>微信号</th>
+            <th>代理等级</th>
+            <th>代理权限截止时间</th>
+            <th>账户资金</th>
+            <th>操作</th>
+        </tr>
+        <foreach name="agents" item="v">
+            <tr>
+                <td>{$v.id}</td>
+                <td>{$v.username}</td>
+                <td>{$v.nickname}</td>
+                <td>{$v.wechat_id}</td>
+                <td>{$v.level}</td>
+                <td>{$v.auth_time|date="Y年m月d日", ###}</td>
+                <td>{$v.account}</td>
+                <td>
+                    [<a href="{:U(MODULE_NAME.'/User/changeAccount', array('aid' => $v['id'], 'name' => $v['username']))}">更改账户资金</a>]
+                    [<a href="{:U(MODULE_NAME.'/User/alterUser', array('uid' => $v['id'], 'name' => $v['username']))}">更改用户信息</a>]
+                    [<a href="{:U(MODULE_NAME.'/User/changePwd', array('uid' => $v['id'], 'name' => $v['username']))}">更改密码</a>]
+                </td>
+            </tr>
+        </foreach>
+    </table>
+</body>
+</html>

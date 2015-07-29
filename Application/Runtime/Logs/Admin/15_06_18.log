@@ -1,0 +1,3245 @@
+[ 2015-06-18T00:01:28+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: remark C:\xampp\htdocs\agentapp\Application\Admin\Controller\OrderController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T00:03:24+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 1 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T00:04:54+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 1 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T00:05:06+08:00 ] ::1 /agentapp/index.php/Admin/Order/handleOrder/status_code/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T00:06:16+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 1 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:41:17+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role C:\xampp\htdocs\agentapp\Application\Admin\Common\Controller\CommonController.class.php 第 7 行.
+
+[ 2015-06-18T09:41:17+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:41:18+08:00 ] ::1 /agentapp/index.php/Admin/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ts_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-18T09:41:18+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:41:20+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:41:27+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 2 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:41:33+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T09:41:36+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T09:44:13+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:44:15+08:00 ] ::1 /agentapp/index.php/Admin/Order/index/status/1%2C4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T09:44:48+08:00 ] ::1 /agentapp/index.php/Admin/Order/index/status/1%2C4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:44:50+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:44:51+08:00 ] ::1 /agentapp/index.php/Admin/Order/index/status/1%2C4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:45:04+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T09:45:05+08:00 ] ::1 /agentapp/index.php/Admin/Order/index/status/1%2C4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T09:45:25+08:00 ] ::1 /agentapp/index.php/Admin/Order/index/status/1%2C4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:52:01+08:00 ] ::1 /agentapp/index.php/Admin/Order/index/status/1%2C4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:52:03+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:52:05+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInHand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:52:15+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 1 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:55:46+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInHand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:55:49+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:55:50+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:55:53+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInHand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T09:55:55+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemark/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:addRemark
+
+[ 2015-06-18T09:56:01+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemark/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:00:45+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemark/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:01:54+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemark/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:02:10+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemark/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-18T10:02:21+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemarkHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:02:40+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemarkHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:02:44+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemark/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:02:50+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemarkHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:06:53+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemarkHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:07:03+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemarkHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ts_agent.ts_reamrk' doesn't exist
+
+[ 2015-06-18T10:07:31+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemarkHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0040s ]
+SQL: INSERT INTO `ts_remark` (`oid`,`text`,`uid`) VALUES ('1','你的快递炸了！','1') [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: oid C:\xampp\htdocs\agentapp\Application\Admin\Controller\OrderController.class.php 第 86 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:07:32+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: status C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [8] Undefined index: express C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [8] Undefined index: pay_type C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 0 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_id C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 24 行.
+NOTIC: [8] Undefined index: time C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 26 行.
+NOTIC: [8] Undefined index: time C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 27 行.
+NOTIC: [8] Undefined index: price C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 29 行.
+NOTIC: [8] Undefined index: discount_price C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 30 行.
+NOTIC: [8] Undefined index: weight C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 47 行.
+NOTIC: [8] Undefined index: address C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 49 行.
+NOTIC: [8] Undefined index: express_price C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 50 行.
+NOTIC: [8] Undefined index: tot_price C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 64 行.
+NOTIC: [8] Undefined index: products C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 79 行.
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:08:44+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=0 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: status C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [8] Undefined index: express C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [8] Undefined index: pay_type C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 0 ) ORDER BY time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order_id C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 24 行.
+NOTIC: [8] Undefined index: time C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 26 行.
+NOTIC: [8] Undefined index: time C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 27 行.
+NOTIC: [8] Undefined index: price C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 29 行.
+NOTIC: [8] Undefined index: discount_price C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 30 行.
+NOTIC: [8] Undefined index: weight C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 47 行.
+NOTIC: [8] Undefined index: address C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 49 行.
+NOTIC: [8] Undefined index: express_price C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 50 行.
+NOTIC: [8] Undefined index: tot_price C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 64 行.
+NOTIC: [8] Undefined index: products C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 79 行.
+NOTIC: [8] Undefined index: id C:\xampp\htdocs\agentapp\Application\Runtime\Cache\Admin\b595618c7b48beaaef8d4c74ae6d9363.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:08:51+08:00 ] ::1 /agentapp/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:08:54+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:08:56+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInHand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:08:57+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 1 ) ORDER BY time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:10:30+08:00 ] ::1 /agentapp/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:10:42+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:10:45+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 2 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:10:57+08:00 ] ::1 /agentapp/index.php/Admin/Order/addExpress/oid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:11:01+08:00 ] ::1 /agentapp/index.php/Admin/Order/addExpress/oid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:11:18+08:00 ] ::1 /agentapp/index.php/Admin/Order/addExpressHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0040s ]
+SQL: INSERT INTO `ts_remark` (`oid`,`uid`,`text`,`time`) VALUES ('2','1','订单已发货<br>快递公司：自提<br>快递单号：','1434593478') [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: UPDATE `ts_order` SET `status`='2' WHERE ( id = 2 ) [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:11:20+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 2 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:11:30+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemark/oid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:11:44+08:00 ] ::1 /agentapp/index.php/Admin/Order/addRemarkHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0040s ]
+SQL: INSERT INTO `ts_remark` (`oid`,`text`,`uid`,`time`) VALUES ('2','快递员被狗咬了','1','1434593504') [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T10:11:46+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 2 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:13:14+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:13:24+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:13:29+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInHand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:13:36+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 1 ) ORDER BY time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:13:41+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 2 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T10:13:47+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:14:27+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: role C:\xampp\htdocs\agentapp\Application\Admin\Common\Controller\CommonController.class.php 第 7 行.
+
+[ 2015-06-18T14:14:27+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:14:28+08:00 ] ::1 /agentapp/index.php/Admin/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-18T14:14:29+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:14:30+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_order` WHERE ( `status` = 1 OR `status` = 4 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:14:34+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInHand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:15:07+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:15:10+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInHand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `status` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-18T14:15:12+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE ( `status` = 1 OR `status` = 4 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 2 ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-06-18T14:15:19+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 3 ) ORDER BY time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-06-18T14:15:23+08:00 ] ::1 /agentapp/index.php/Admin/Order/addExpress/oid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:15:30+08:00 ] ::1 /agentapp/index.php/Admin/Order/addExpressHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0050s ]
+SQL: INSERT INTO `ts_remark` (`oid`,`uid`,`text`,`time`) VALUES ('3','1','订单已发货<br>快递公司：顺丰快递<br>快递单号：1234567890','1434608130') [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: UPDATE `ts_order` SET `status`='2' WHERE ( id = 3 ) [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:15:32+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 3 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:16:46+08:00 ] ::1 /agentapp/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-06-18T14:16:49+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE ( `status` = 1 OR `status` = 4 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=4 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=4 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-18T14:16:53+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=4 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 4 ) ORDER BY time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-18T14:16:55+08:00 ] ::1 /agentapp/index.php/Admin/Order/addExpress/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-18T14:17:06+08:00 ] ::1 /agentapp/index.php/Admin/Order/addExpressHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ts_remark` (`oid`,`uid`,`text`,`time`) VALUES ('4','1','订单已发货<br>快递公司：韵达快递<br>快递单号：9876543210','1434608226') [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0050s ]
+SQL: UPDATE `ts_order` SET `status`='2' WHERE ( id = 4 ) [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:17:07+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=4 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 4 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-18T14:23:38+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role C:\xampp\htdocs\agentapp\Application\Admin\Common\Controller\CommonController.class.php 第 7 行.
+
+[ 2015-06-18T14:23:38+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:23:40+08:00 ] ::1 /agentapp/index.php/Admin/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ts_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-18T14:23:40+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:23:43+08:00 ] ::1 /agentapp/index.php/Admin/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE ( `status` = 1 OR `status` = 4 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_order_products` WHERE ( oid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=4 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 23 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 24 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 25 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:23:45+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=4 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 4 ) ORDER BY time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T14:27:04+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=4 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 4 ) ORDER BY time DESC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:27:06+08:00 ] ::1 /agentapp/index.php/Admin/Order/handleReturn/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:34:49+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=4 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 4 ) ORDER BY time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T14:34:51+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnGoods/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./Application/Admin/View/Order/returnGoods.html
+
+[ 2015-06-18T14:35:13+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnGoods/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T15:18:22+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderInfo/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_order_products` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order_products` WHERE ( oid=4 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_product` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::orderStatus() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 45 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::expressInfo() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 46 行.
+NOTIC: [2048] Non-static method Common\Util\OrdersProducts::payType() should not be called statically C:\xampp\htdocs\agentapp\Application\Common\Util\OrdersProducts.class.php 第 47 行.
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_remark` WHERE ( oid = 4 ) ORDER BY time DESC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-18T15:18:23+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnGoods/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T15:19:22+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnGoods/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T15:19:27+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0050s ]
+SQL: UPDATE `ts_order` SET `status`='5' WHERE ( id = 0 ) [ RunTime:0.0000s ]
+SQL: SELECT `aid`,`discount_price` FROM `ts_order` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_agent` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2015-06-18T15:21:54+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: UPDATE `ts_order` SET `status`='5' WHERE ( id = 0 ) [ RunTime:0.0000s ]
+SQL: SELECT `aid`,`discount_price` FROM `ts_order` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_agent` [ RunTime:0.0030s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+
+[ 2015-06-18T15:22:20+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: UPDATE `ts_order` SET `status`='5' WHERE ( id = 0 ) [ RunTime:0.0010s ]
+SQL: SELECT `aid`,`discount_price` FROM `ts_order` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_agent` [ RunTime:0.0040s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2015-06-18T15:22:46+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: UPDATE `ts_order` SET `status`='5' WHERE ( id = 0 ) [ RunTime:0.0000s ]
+SQL: SELECT `aid`,`discount_price` FROM `ts_order` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-18T15:23:12+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: UPDATE `ts_order` SET `status`='5' WHERE ( id = 0 ) [ RunTime:0.0000s ]
+SQL: SELECT `aid`,`discount_price` FROM `ts_order` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-06-18T15:23:17+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnGoods/oid/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T15:23:20+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: UPDATE `ts_order` SET `status`='5' WHERE ( id = 4 ) [ RunTime:0.0050s ]
+SQL: SELECT `aid`,`discount_price` FROM `ts_order` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-06-18T15:23:41+08:00 ] ::1 /agentapp/index.php/Admin/Order/returnHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+SQL: UPDATE `ts_order` SET `status`='5' WHERE ( id = 4 ) [ RunTime:0.0070s ]
+SQL: SELECT `aid`,`discount_price` FROM `ts_order` WHERE ( id = 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ts_agent` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`account` FROM `ts_agent` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ts_account` [ RunTime:0.0030s ]
+SQL: INSERT INTO `ts_account` (`aid`,`mid`,`time`,`operate`,`amount`,`last_account`,`new_account`,`remark`) VALUES ('6','1','1434612221','3','598.80','49389.20','49988','订单退款') [ RunTime:0.0060s ]
+SQL: UPDATE `ts_agent` SET `account`='49988' WHERE ( 6 ) [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `ts_remark` [ RunTime:0.0040s ]
+SQL: INSERT INTO `ts_remark` (`oid`,`uid`,`text`,`time`) VALUES ('4','1','退款598.80至代理账户<br>说明:','1434612221') [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T15:23:43+08:00 ] ::1 /agentapp/index.php/Admin/Order/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_order` WHERE ( `status` = 1 OR `status` = 4 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-06-18T15:23:47+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T15:23:50+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-18T21:30:50+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role C:\xampp\htdocs\agentapp\Application\Admin\Common\Controller\CommonController.class.php 第 7 行.
+
+[ 2015-06-18T21:30:50+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-06-18T21:30:50+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Public
+
+[ 2015-06-18T21:30:50+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Js/jquery-1.11.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Public
+
+[ 2015-06-18T21:30:50+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:31:16+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role C:\xampp\htdocs\agentapp\Application\Admin\Common\Controller\CommonController.class.php 第 7 行.
+
+[ 2015-06-18T21:31:16+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:31:16+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:31:16+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Js/jquery-1.11.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Public
+
+[ 2015-06-18T21:31:16+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Public
+
+[ 2015-06-18T21:31:16+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:31:41+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:31:42+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Public
+
+[ 2015-06-18T21:31:42+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Js/jquery-1.11.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Public
+
+[ 2015-06-18T21:31:42+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:32:27+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:32:27+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:33:15+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:33:15+08:00 ] ::1 /agentapp/index.php/Admin/Login/Admin/Common/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2015-06-18T21:33:15+08:00 ] ::1 /agentapp/index.php/Admin/Login/Admin/Common/Public/Js/jquery-1.11.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:Admin
+
+[ 2015-06-18T21:33:15+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:34:55+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' C:\xampp\htdocs\agentapp\Application\Admin\Conf\config.php 第 4 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:34:55+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' C:\xampp\htdocs\agentapp\Application\Admin\Conf\config.php 第 4 行.
+
+[ 2015-06-18T21:35:53+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:35:54+08:00 ] ::1 /agentapp/Admin/Common/Public/Css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Common
+
+[ 2015-06-18T21:35:54+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:35:54+08:00 ] ::1 /agentapp/Admin/Common/Public/Js/jquery-1.11.0.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Common
+
+[ 2015-06-18T21:35:54+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:36:00+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:36:33+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:36:33+08:00 ] ::1 /agentapp/index.php/Admin/Login/Public/Images/avtar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:37:22+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:38:48+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:40:24+08:00 ] 192.168.191.2 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role C:\xampp\htdocs\agentapp\Application\Admin\Common\Controller\CommonController.class.php 第 7 行.
+
+[ 2015-06-18T21:40:25+08:00 ] 192.168.191.2 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:41:54+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:43:30+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:43:35+08:00 ] ::1 /agentapp/index.php/Admin/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-18T21:43:35+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:44:01+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:45:15+08:00 ] 192.168.191.2 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T21:45:26+08:00 ] 192.168.191.2 /agentapp/index.php/Admin/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-18T21:45:26+08:00 ] 192.168.191.2 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:45:47+08:00 ] 192.168.191.2 /agentapp/index.php/Admin/Index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T21:45:47+08:00 ] 192.168.191.2 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T23:40:57+08:00 ] ::1 /agentapp/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: role C:\xampp\htdocs\agentapp\Application\Admin\Common\Controller\CommonController.class.php 第 7 行.
+
+[ 2015-06-18T23:40:57+08:00 ] ::1 /agentapp/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T23:40:59+08:00 ] ::1 /agentapp/index.php/Admin/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-06-18T23:41:00+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T23:41:12+08:00 ] ::1 /agentapp/index.php/Admin/Login/loginHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-06-18T23:41:12+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T23:41:16+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T23:57:24+08:00 ] ::1 /agentapp/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ts_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T23:57:25+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderCompleted.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-06-18T23:57:38+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderCompleted.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-06-18T23:57:49+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderCompleted.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: count C:\xampp\htdocs\agentapp\Application\Admin\Controller\OrderController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0030s ]
+ERR: 表达式错误:0
+
+[ 2015-06-18T23:59:41+08:00 ] ::1 /agentapp/index.php/Admin/Order/orderCompleted.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: count C:\xampp\htdocs\agentapp\Application\Admin\Controller\OrderController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `ts_order` [ RunTime:0.0040s ]
+ERR: 表达式错误:0
+
